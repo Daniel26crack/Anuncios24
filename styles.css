@@ -168,49 +168,25 @@ ul{
 }
 
 @media (max-width: 700px) {
-
-    .menu-btn {
-        display: block;
-
-    }
-
-    .nav-main ul.nav-menu {
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
-        background: #30c4e9;
-        height: 100%;
-        padding: 35px;
-        opacity: .9;
-        transform: translateX(-400px);
-        transition: transforn .2s ease-in-out;
-    }
-
-    .nav-main ul.nav-menu.show {
-        transform: translateX(-50px);
-    }
-
-    .nav-brand ul.nav-menu li {
-        padding: 30px;
-        font-size: 20px;
-    }
-
-    .nav-main ul.nav-menu-right {
-        margin-right: 70px;
+    body {  
+        background: #2980B9;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #cfcdcd, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #cfcccc, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     }
 
     .cards-banner-two .content
     {
         width: 80%;
     }
-    
-    body {background: #3dcfe9;}
 }
 
 @media (max-width: 500px) {
     .news-cards {
         grid-template-columns: 1fr;
+    }
+
+    .news-cards img {
+        height: 270px;
     }
     
     .news-cards img {

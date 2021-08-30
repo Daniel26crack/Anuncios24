@@ -5,36 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acerca De</title>
-    <link rel="stylesheet" href="styles3.css">
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="shortcut icon" href="img/imagen 1.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <nav class="nav-main"> 
-            <img src="img/imagen 1.png" alt="techNews LOGO" class="nav-brand">
-            <ul class="nav-menu show">
-                <li>
-                    <a href="index.html">Inicio</a>
-                <li>
-                    <a href="contacto.html">contacto</a>
-               </li>
-                <li>
-                    <a href="servicio al cliente.html">Servicio al cliente</a>
-                </li>
-            </ul>
-        </nav>
+    <header class="hero">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="nav__items nav__items--cta">Inicio</a>
+            </nav>
 
-        <div class="contenedor_1">
-            <h2>Que es Anuncios 24?</h2>
+            <section class="hero__container">
+                <div class="hero__texts">
+                    <h1 class="hero__title">¿QUE ES ANUNCIOS 24?</h1>
+                    <h2 class="hero__subtitle">Y PARA QUE SIRVE ?</h2>
+                    <a href="pagina-principal.html" class="hero__cta">ir a pagina principal</a>
+                </div>
+            </section>
         </div>
-        <div class="contenedor">
-            <img src="img/imagen 29.svg">
-        <div class="contenedor_2">
-            <h3>Anuncios 24  es una pagina que tiene como objetivo anunciar tus productos o empresa, en esta pagina podras pubicar lo que tu quieras ya sea que estes vendiendo una casa,estes vendiendo sueteres o estes reclutando gente para tu empresa lo puedes hacer aqui</h3>
-        </div>
-        </div>
+        <div class="hero__wave" style="overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #6DD5FA;"></path></svg></div>
+    </header>
+
+    <main>
+        <section class="presentation container">
+            <img src="img/imagen 1.png" class="presentation__picture">
+            <h2 class="subtitle">¿QUE ES ANUNCIOS 24?</h2>
+            <p class="presentation__copy">Anuncios 24  es una pagina que tiene como objetivo anunciar tus productos o empresa, en esta pagina podras pubicar lo que tu quieras ya sea que estes vendiendo una casa,estes vendiendo sueteres o estes reclutando gente para tu empresa lo puedes hacer aqui</p>
+        </section>
+        <section class="about container">
+
+            <div class="about__texts">
+                <h2 class="subtitle">PARA QUE SIRVE ANUNCIOS 24</h2>
+                <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum commodi, sequi incidunt doloribus aperiam architecto debitis numquam aliquam animi aut qui saepe eos perspiciatis expedita quasi blanditiis et, odio modi.</p>
+            </div>
+
+            <figure class="about__img">
+                <img src="img/imagen 29.svg" class="about__picture">
+            </figure>
+
+            <figure class="about__img about__img--left">
+                <img src="img/imagen 31.svg" class="about__picture">
+            </figure>
+
+            <div class="about__texts">
+                <h2 class="subtitle">CUAL ES EL OBJETIVO QUE TIENE ANUNCIOS 24 ?</h2>
+                <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum commodi, sequi incidunt doloribus aperiam architecto debitis numquam aliquam animi aut qui saepe eos perspiciatis expedita quasi blanditiis et, odio modi.</p>
+            </div>
+
+        </section>
+    </main>
     
-        
-
 </body>
 </html>

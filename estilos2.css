@@ -1,0 +1,30 @@
+body{
+    background: #007991;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #8cfddb, #0dd7f1);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #8cf7d7, #0ddee6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 4%;
+    padding: 4%;
+    padding: 10px 0;
+    color: #080808;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+    
+
